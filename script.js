@@ -1,7 +1,10 @@
 function firstWord(s) {
   // your code here
-	s = s.split(" ")
-	return s[0]
+	let xs = s.split(" ")
+	if (xs.length<=1) {
+		return s
+	}
+	return xs[0]
 }
 
 // Do not change the code below
